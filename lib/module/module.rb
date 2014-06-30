@@ -1,6 +1,9 @@
+
+$LOAD_PATH.unshift File.expand_path('lib')
+
 require 'json'
 require "socket"
-require 'mono/consts'
+require 'module/consts'
 
 #Server / Client共通の処理・インターフェイスを定義する
 module Mono
